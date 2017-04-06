@@ -6,12 +6,17 @@ function cube(){
 	var num = document.getElementByld("n1");
 	num.value = Math.pow(num.value, 3);
 }
+function elevadoCuatro(){
+	var num = document.getElementByld("n2");
+	num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
  Number:
   <input type="text" id="n1"><p>
-
+  <input type="text" id="n2"><p>
+  <button onclick="elevadoCuatro()">x⁴</button>
   <button onclick="cube()">x³</button>
 </body>
 </html>
